@@ -1,6 +1,7 @@
 ﻿//Encapsulation
 
 using ConsoleApp1.src.OOPprinciples.Abstraction;
+using ConsoleApp1.src.OOPprinciples.Coupling;
 using ConsoleApp1.src.OOPprinciples.Encapsulation;
 using ConsoleApp1.src.OOPprinciples.Inheritance;
 using ConsoleApp1.src.OOPprinciples.Polymorphism;
@@ -65,4 +66,9 @@ foreach (var vehicle in vehicles)
     vehicle.Start();
 }
 
+//Coupling
 
+//The degree of dependency different classes
+
+var order = new Order();
+order.PlaceOrder();
